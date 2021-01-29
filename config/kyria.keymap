@@ -16,7 +16,7 @@
 
 		default_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
-// |  TAB  |  Q  |  W  |  F   |  P   |  B   |                                          |  Y   |  U    |  I    |  O   |   P   |   \  |
+// |  TAB  |  Q  |  W  |  F   |  P   |  B   |                                          |  J   |  L    |  U    |  Y   |   P   |   \  |
 // |  CTL  |  A  |  R  |  S   |  T   |  G   |                                          |  M   |  N    |  E    |  I   |   O   |   '  |
 // | SHIFT |  Z  |  X  |  C   |  D   |  V   | L SHIFT | L SHIFT |  | L SHIFT | L SHIFT |  K   |  H    |  ,    |  .   |   /   | CTRL |
 //                     | DEL  | GUI  | RET  |  SPACE  |  LOWER  |  |  RAISE  |  SPACE  | TAB  | BSPC  | R-ALT |
@@ -27,7 +27,7 @@
 	              &kp DEL &kp LGUI      &kp LGUI &mo LOWER &kp RET           &kp SPC &mo RAISE   &kp LALT &kp BKSP &kp RALT
 			>;
 
-			sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
+			// sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
 		};
 
 		lower_layer {
