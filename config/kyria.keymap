@@ -34,7 +34,7 @@
 //                     | DEL  | GUI  | RET  |  SPACE  |  LOWER  |  |  RAISE  |  SPACE  | TAB  | BSPC  | R-ALT |
 			bindings = <
 	&kp ESC     &kp Q   &kp W   &kp F   &kp P   &kp B                                          &kp J    &kp L   &kp U    &kp Y   &kp SCLN  &kp BKSP
-	&kp TAB    &kp A   &kp R   &kp S   &hm LSFT T   &kp G                                          &hm LSFT M    &kp N   &kp E    &kp I   &kp O  &kp QUOT
+	&kp TAB    &kp A   &kp R   &kp S   &hm LSHFT T   &kp G                                          &hm LSHFT M    &kp N   &kp E    &kp I   &kp O  &kp QUOT
 	&kp LSFT    &kp Z   &kp X   &kp C   &kp D   &kp V &kp LSFT &kp LSFT &kp LSFT &kp LSFT &kp K &kp H &kp CMMA &kp DOT &kp FSLH &kp RSFT
   &trans &kp LGUI      &lt RAISE RET &kp LCTL &kp RET           &kp SPC &kp LALT &lt LOWER SPC   &kp BKSP &trans
 			>;
