@@ -15,22 +15,6 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-		raise_layer {
-// ---------------------------------------------------------------------------------------------------------------------------------
-// |  ESC |  !  |  @  |  #  |  $  |  %  |                 ~            |  ^  |  &  |  *  |  (  |  )  | BKSP |
-// | CTRL |     |     |     |     |     |                 ~            |  -  |  =  |  {  |  }  | "|" |  `   |
-// | SHFT |     |     |     |     |     |      |        | ~ |     |    |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
-//                 |      |      |      |      |        | ~ |     |    |     |     |     |
-			bindings = <
-   &kp  ESC &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT                               &kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN &kp BKSP
-   &kp LCTL &trans    &trans    &trans    &trans    &trans                                 &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE &kp GRAV
-   &kp LSFT &trans    &trans    &trans    &trans    &trans   &trans &trans  &trans &trans  &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp BSLH &kp TILD
-	              &trans &trans    &trans &trans &trans           &trans &trans   &trans &trans &trans
-			>;
-
-			// sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
-		};
-
 		default_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |  TAB  |  Q  |  W  |  F   |  P   |  B   |                                          |  J   |  L    |  U    |  Y   |   P   | ";"  |
@@ -63,6 +47,22 @@
 			// sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
 		};
         
+		raise_layer {
+// ---------------------------------------------------------------------------------------------------------------------------------
+// |  ESC |  !  |  @  |  #  |  $  |  %  |                 ~            |  ^  |  &  |  *  |  (  |  )  | BKSP |
+// | CTRL |     |     |     |     |     |                 ~            |  -  |  =  |  {  |  }  | "|" |  `   |
+// | SHFT |     |     |     |     |     |      |        | ~ |     |    |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
+//                 |      |      |      |      |        | ~ |     |    |     |     |     |
+			bindings = <
+   &kp  ESC &kp BANG  &kp ATSN  &kp HASH  &kp CURU  &kp PRCT                               &kp CRRT  &kp AMPS &kp KMLT &kp LPRN &kp RPRN &kp BKSP
+   &kp LCTL &trans    &trans    &trans    &trans    &trans                                 &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE &kp GRAV
+   &kp LSFT &trans    &trans    &trans    &trans    &trans   &trans &trans  &trans &trans  &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp BSLH &kp TILD
+	              &trans &trans    &trans &trans &trans           &trans &trans   &trans &trans &trans
+			>;
+
+			// sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
+		};
+
         settings_layer {
 	&reset &bt BT(0) &bt BT(1) &bt BT(2)  &bt BT(3) &bt BT(4)                                  &rgb_ug RGB_TOG &kp HOME  &trans  &kp END   &trans    &reset
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans    &trans
