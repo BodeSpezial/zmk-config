@@ -65,9 +65,9 @@
 // | SHFT |     |     |     |     |     |      |        | ~ |     |    |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
 //                 |      |      |      |      |        | ~ |     |    |     |     |     |
 			bindings = <
-	&trans &trans &trans &trans &trans &trans &trans &trans &trans  &trans &trans    &trans
-    &kp LCTL &trans    &trans    &trans    &trans    &trans                                 &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE &kp GRAV
-    &kp LSFT &trans    &trans    &trans    &trans    &trans   &trans &trans  &trans &trans  &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp BSLH &kp TILD
+	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans
+    &trans &trans &trans &trans &trans &trans                             &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE &kp GRAV
+    &to 3  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp BSLH &kp TILD
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
 
@@ -77,8 +77,8 @@
         settings_layer {
         bindings = <
 	&reset &bt BT(0) &bt BT(1) &bt BT(2)  &bt BT(3) &bt BT(4)                                  &rgb_ug RGB_TOG &kp HOME  &bt BT_CLR  &kp END   &trans    &reset
-	&out OUT_BLE &out OUT_USB &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+	&out OUT_BLE  &out OUT_USB  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+	&to 0  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
         };
