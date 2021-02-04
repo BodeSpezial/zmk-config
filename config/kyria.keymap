@@ -65,7 +65,7 @@
 // | SHFT |     |     |     |     |     |      |        | ~ |     |    |  _  |  +  |  [  |  ]  |  \  |  ~   | // TODO: Fix this row when &mkp is committed
 //                 |      |      |      |      |        | ~ |     |    |     |     |     |
 			bindings = <
-	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans
+	&bt BT_CLR &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans    &trans
     &trans &trans &trans &trans &trans &trans                             &kp MINUS &kp EQL  &kp LBKT &kp RBKT &kp PIPE &kp GRAV
     &to 3  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp UNDER &kp PLUS &kp LBRC &kp RBRC &kp BSLH &kp TILD
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
