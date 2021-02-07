@@ -39,7 +39,7 @@
     &trans &kp LGUI      &lt RAISE RET &kp LCTRL &mo LOWER           &mo RAISE &kp LALT &lt LOWER SPACE   &kp BSPC &trans
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+			//sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
 		};
 
 		lower_layer {
@@ -54,8 +54,6 @@
 	&trans &trans &trans &trans     &trans &trans    &trans       &trans     &trans &trans &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans    &trans
 	&trans &trans    &trans    &trans &trans &trans &trans &trans &trans    &trans
 			>;
-
-			// sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
 		};
         
 		raise_layer {
@@ -71,8 +69,6 @@
     &to 3  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
-
-			// sensor-bindings = <&inc_dec_cp M_VOLU M_VOLD &inc_dec_kp PGUP PGDN>;
 		};
 
         settings_layer {
