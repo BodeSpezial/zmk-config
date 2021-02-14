@@ -74,7 +74,7 @@
         bindings = <
 	&reset &bt BT(0) &bt BT(1) &bt BT(2)  &bt BT(3) &bt BT(4)                                  &rgb_ug RGB_TOG &kp HOME  &bt BT_CLR  &kp END   &trans    &reset
 	&out OUT_BLE  &out OUT_USB  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
-	&to 0  &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
+	&to 0  &ext_power EP_TOG &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
 	&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans
             >;
         };
