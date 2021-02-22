@@ -34,7 +34,7 @@
 //                     | DEL  | GUI  | RET  |  SPACE  |  LOWER  |  |  RAISE  |  SPACE  | TAB  | BSPC  | R-ALT |
 			bindings = <
 	&kp ESC     &kp Q   &kp W   &kp F   &kp P   &kp B                                   &kp J    &kp L   &kp U    &kp Y   &kp SEMI  &kp BSPC
-	&kp TAB     &kp A   &hm LCTRL R   &hm LGUI S   &hm LSHFT T   &kp G                             &kp M    &hm LSHFT N   &hm LGUI E    &hm LCTRL I   &kp O  &kp SQT
+	&kp TAB     &hm LALT A   &hm LCTRL R   &hm LGUI S   &hm LSHFT T   &kp G                             &kp M    &hm LSHFT N   &hm LGUI E    &hm LCTRL I   &hm LALT O  &kp SQT
 	&kp LSHFT    &kp Z   &kp X   &kp C   &kp D   &kp V &kp LSHFT &kp LSHFT &kp LSHFT &kp LSHFT &kp K &kp H &kp COMMA &kp DOT &kp FSLH &kp RSHFT
     &trans &kp LGUI      &lt RAISE RET &kp LCTRL &mo LOWER           &mo RAISE &kp LALT &lt LOWER SPACE   &kp BSPC &trans
 			>;
