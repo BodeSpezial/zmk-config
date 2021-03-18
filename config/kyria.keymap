@@ -35,7 +35,7 @@
 			bindings = <
 	&trans  &kp Q       &kp W           &kp F       &kp P           &kp B                                                           &kp J           &kp L       &kp U       &kp Y       &kp SEMI    &trans
 	&trans  &hm LALT A  &hm LCTRL R     &hm LGUI S  &hm LSHFT T     &kp G                                                           &kp M           &hm LSHFT N &hm LGUI E  &hm LCTRL I &hm LALT O  &trans
-	&trans  &kp Z       &kp X           &kp C       &kp D           &kp V           &kp trans   &kp trans   &kp trans   &kp trans   &kp K           &kp H       &kp COMMA   &kp DOT     &kp FSLH    &trans
+	&trans  &kp Z       &kp X           &kp C       &kp D           &kp V           &trans   &trans   &trans   &trans   &kp K           &kp H       &kp COMMA   &kp DOT     &kp FSLH    &trans
                                         &trans      &kp TAB         &lt RAISE RET   &kp ESC     &trans      &kp trans   &kp SQT     &lt LOWER SPACE &kp BSPC    &trans
 			>;
 
