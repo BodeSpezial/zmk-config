@@ -59,3 +59,12 @@ jobs:
         with:
           name: firmware
           path: kyria_right_nice_nano.uf2
+      - name: Post firmware to new release
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Neuste Firmware"
+          files: ./firmware.zip
+
