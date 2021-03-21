@@ -66,5 +66,6 @@ jobs:
           automatic_release_tag: "latest"
           prerelease: false
           title: "Neuste Firmware"
-          files: *.uf2
+          files: |
+                  *.uf2
 
