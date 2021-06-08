@@ -31,6 +31,11 @@
             key-positions = <14 15>;
             bindings = <&kp LBRC>;
         };
+        combo_bracket {
+            timeout-ms = <50>;
+            key-positions = <15 16>;
+            bindings = <&kp RBRC>;
+        };
     };
 
 	keymap {
