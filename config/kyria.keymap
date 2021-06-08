@@ -26,12 +26,12 @@
 
     combos {
         compatible = "zmk,combos";
-        combo_bracket {
+        combo_bracket_curly_open {
             timeout-ms = <50>;
             key-positions = <14 15>;
             bindings = <&kp LBRC>;
         };
-        combo_bracket {
+        combo_bracket_curly_close {
             timeout-ms = <50>;
             key-positions = <15 16>;
             bindings = <&kp RBRC>;
